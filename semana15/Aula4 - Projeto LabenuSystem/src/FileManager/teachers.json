@@ -1,0 +1,39 @@
+[
+  {
+    "id": "ValorId",
+    "name": "Paulinha",
+    "email": "paulinha@labenu.com",
+    "specialties": [
+      "CSS",
+      "REACT"
+    ]
+  },
+  {
+    "id": "ValorId",
+    "name": "Soter",
+    "email": "soter_bananinha@labenu.com",
+    "specialties": [
+      "REACT",
+      "REDUX",
+      "TESTES"
+    ]
+  },
+  {
+    "id": "ValorId",
+    "name": "Goli",
+    "email": "goli_hp@labenu.com",
+    "specialties": [
+      "BACKEND",
+      "TYPESCRIPT"
+    ]
+  },
+  {
+    "id": "ValorId",
+    "name": "João",
+    "email": "joao@labenu.com",
+    "specialties": [
+      "TYPESCRIPT",
+      "BACKEND"
+    ]
+  }
+]

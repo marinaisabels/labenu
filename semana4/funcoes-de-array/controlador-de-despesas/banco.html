@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exercício 2</title>
+  <link rel="stylesheet" type="text/css" href="banc.css">
+  <script src="banban.js" defer></script>
+</head>
+
+
+
+<body>
+     
+   <header>
+     </header>
+
+
+            <main>
+              <section class="cadastrar-despesa" id="cadastrar-despesa">
+
+
+                <ul>
+                  <li>
+   	               <h3>Controlador de Despesas </h3>
+                      <p> Cadastrar despesa </p></li>
+
+                       <li>
+                       <label>Valor</label>
+                       <input type="text">
+                        </li>
+
+                         <li>
+                           <Label> Tipo(Casa, Viagem, Rolês, Outros)</Label>   
+                            <select name="despesas">
+                             <option value="casa">casa</option>
+                             <option value="viagem">viagem</option>
+                             <option value="roles">roles</option>
+                             <option value="outro">outros</option>
+                         </li>
+                 </select>
+              
+                      
+                         <li>
+                          <label>Descrição</label> 
+                          <input type="text">
+                         </li>
+
+        <button onclick="Cadastrar()">Cadastrar Despesas</button>
+
+              </ul>
+              </section>
+             
+                <section class="despesas-detalhadas" id="despesas-detalhadas">
+
+                  <ul>
+                     <li>
+                  <h2>Despesas Detalhadas </h2></li>
+
+                <li>
+                <Label> Tipo(Casa, Viagem, Rolês, Outros)</Label>   
+                   <select name="semana">
+                     <option value="casa">casa</option>
+                     <option value="viagem">viagem</option>
+                     <option value="roles">roles</option>
+                     <option value="outros">outros</option>
+                  </li>
+                   </select>
+
+                   <li>
+                 <label>Valor Mínimo</label> 
+                 <input type="text"  id="valorMinimo"></li>
+
+                 <li>
+                  <label>Valor Máximo</label> 
+                 <input type="text" id="valorMaximo"></li>
+
+               <button onclick="filtrar()">Filtrar</button>
+                <input type="reset" name="limparfiltros">
+                 </ul>
+
+             </section>
+                  
+
+             <section class="extrato">        
+           <ul>
+            <li>
+           <h1> Extrato </h1></li>
+           <li>
+           <p> Valor Total </p></li>
+         </ul>
+</section>
+            </main>
+
+     </section>
+
+     <footer>
+        
+     </footer>
+
+
+
+</body>
+</html>

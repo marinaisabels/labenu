@@ -1,0 +1,53 @@
+
+/* Esse é o meu cabeçalho */
+
+.header {
+	overflow:hidden;
+	background-color: #F0F8FF;
+	padding: 20px 10px;
+	color:black;
+	text-align: center;
+}
+
+
+/* Esse é o meu menu */
+
+ul {
+   list-style-type:none;
+   margin:0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #F8F8FF;
+
+
+}
+
+li {
+	float:left;
+}
+
+li a {
+	display: block;
+	color:black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: white;
+}
+
+
+
+/* Esse é o meu rodapé */
+.footer {
+	position:fixed;
+	left: 0;
+	bottom:0;
+	width:100%;
+	background-color: #E6E6FA;
+	color:black;
+	text-align:center;
+
+}

@@ -1,0 +1,23 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const moment = require("moment");
+moment.locale("pt-br");
+const Student_1 = require("./Student");
+const Teacher_1 = require("./Teacher");
+const FullTimeMission_1 = require("./FullTimeMission");
+const NightMission_1 = require("./NightMission");
+exports.newStudent = new Student_1.Student("ValorId", "Manoel", "manoel@live.com", moment("25/05/1994", "DD/MM/YYYY"), ["Jogar Bola"]);
+exports.newStudent2 = new Student_1.Student("ValorId", "Beatriz", "beatriz@live.com", moment("25/05/1994", "DD/MM/YYYY"), ["Dançar Tango"]);
+exports.teacher1 = new Teacher_1.Teacher("ValorId", "Paulinha", "paulinha@labenu.com", []);
+exports.teacher2 = new Teacher_1.Teacher("ValorId", "Soter", "soter_bananinha@labenu.com", []);
+exports.teacher3 = new Teacher_1.Teacher("ValorId", "Goli", "goli_hp@labenu.com", []);
+exports.teacher4 = new Teacher_1.Teacher("ValorId", "João", "joao@labenu.com", []);
+exports.class1 = new FullTimeMission_1.FullTimeMission("class-1", "ValorId", moment("22/07/2020", "DD/MM/YYYY"), moment("22/10/2020", "DD/MM/YYYY"), [], []);
+exports.class1.addStudent(exports.newStudent);
+exports.class1.addTeacher(exports.teacher1);
+exports.class1.addTeacher(exports.teacher3);
+exports.class2 = new NightMission_1.NightMission("class2-na-night", "ValorId", moment("22/07/2020", "DD/MM/YYYY"), moment("22/10/2020", "DD/MM/YYYY"), [], []);
+exports.class2.addStudent(exports.newStudent2);
+exports.class2.addTeacher(exports.teacher2);
+exports.class2.addTeacher(exports.teacher4);
+//# sourceMappingURL=index.js.map

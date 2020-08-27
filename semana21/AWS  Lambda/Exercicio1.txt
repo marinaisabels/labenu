@@ -1,0 +1,25 @@
+Exercício 1 
+
+b) Ele recebe a mensagem "Missing Input".
+
+c)Ele recebe a mensagem "Missing Input" pois está faltando informações.
+
+d) Ele recebe a mensagem "Missing Input" pois não há informação do email.
+
+e) Recebe a mensagem Invalid Password.
+ 
+f) Recebe a mensagem User is correct!
+
+g) statusCode: 422
+
+h){
+  "user": {
+		"info": {
+			"name": "Astrodev",
+			"email": "astrodev@f4.com.br",
+			"password": "123456"
+		}
+  }
+}
+
+Exer

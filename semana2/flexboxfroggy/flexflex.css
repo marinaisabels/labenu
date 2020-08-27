@@ -1,0 +1,43 @@
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.flex-container > div {
+    background-color: #38ca49;
+    margin:8px;
+    padding: 8px;
+    font-size:14px;
+}
+
+.menu {
+    width: 100px;
+}
+
+.content1 {
+    width: 80px;
+    height: 80px;
+}
+
+.content2 {
+    height: 300px;
+}
+
+.branco {
+    height: 300px;
+}
+
+.image {
+    height: 300px;
+}
+
+.extra {
+    height: 300px;
+}
+
+.footer {
+    height: 300px;
+}
