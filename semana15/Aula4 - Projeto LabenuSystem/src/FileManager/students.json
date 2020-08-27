@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ValorId",
+    "name": "Manoel",
+    "email": "manoel@live.com",
+    "birthDate": "1994-05-25T03:00:00.000Z",
+    "hobbies": [
+      "Jogar Bola"
+    ]
+  },
+  {
+    "id": "ValorId",
+    "name": "Beatriz",
+    "email": "beatriz@live.com",
+    "birthDate": "1994-05-25T03:00:00.000Z",
+    "hobbies": [
+      "Dançar Tango"
+    ]
+  }
+]

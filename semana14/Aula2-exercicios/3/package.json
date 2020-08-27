@@ -1,0 +1,17 @@
+{
+  "name": "exercicio1",
+  "version": "0.0.1",
+  "description": "Exercicio Aula2 de Node",
+  "main": "exercicio3.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "exercicio",
+    "3",
+    "sagan",
+    "node"
+  ],
+  "author": "Marina",
+  "license": "ISC"
+}

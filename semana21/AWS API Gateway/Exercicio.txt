@@ -1,0 +1,18 @@
+Tarefa 2 
+
+1.Primeira entrada é o input event e saída é true. 
+
+2. Para converter o body(uma string) em um objeto.
+
+3.Retorna 200 quando o verifyExistence e o objeto são diferentes de 0 e recebem o 
+queryStringParameters.
+
+4. Quando ele não recebe nem o body nem as queries.
+
+Tarefa 3
+
+function handler(cep: string){
+    if (cep.length >= 8 ) {
+        return false
+    }
+}

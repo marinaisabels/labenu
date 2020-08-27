@@ -1,0 +1,77 @@
+[
+  {
+    "name": "class-1",
+    "id": "ValorId",
+    "initialDate": "2020-07-22T03:00:00.000Z",
+    "finishDate": "2020-10-22T03:00:00.000Z",
+    "TeacherList": [
+      {
+        "id": "ValorId",
+        "name": "Paulinha",
+        "email": "paulinha@labenu.com",
+        "specialties": [
+          "CSS",
+          "REACT"
+        ]
+      },
+      {
+        "id": "ValorId",
+        "name": "Goli",
+        "email": "goli_hp@labenu.com",
+        "specialties": [
+          "BACKEND",
+          "TYPESCRIPT"
+        ]
+      }
+    ],
+    "StudentsList": [
+      {
+        "id": "ValorId",
+        "name": "Manoel",
+        "email": "manoel@live.com",
+        "birthDate": "1994-05-25T03:00:00.000Z",
+        "hobbies": [
+          "Jogar Bola"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "class2-na-night",
+    "id": "ValorId",
+    "initialDate": "2020-07-22T03:00:00.000Z",
+    "finishDate": "2020-10-22T03:00:00.000Z",
+    "TeacherList": [
+      {
+        "id": "ValorId",
+        "name": "Soter",
+        "email": "soter_bananinha@labenu.com",
+        "specialties": [
+          "REACT",
+          "REDUX",
+          "TESTES"
+        ]
+      },
+      {
+        "id": "ValorId",
+        "name": "João",
+        "email": "joao@labenu.com",
+        "specialties": [
+          "TYPESCRIPT",
+          "BACKEND"
+        ]
+      }
+    ],
+    "StudentsList": [
+      {
+        "id": "ValorId",
+        "name": "Beatriz",
+        "email": "beatriz@live.com",
+        "birthDate": "1994-05-25T03:00:00.000Z",
+        "hobbies": [
+          "Dançar Tango"
+        ]
+      }
+    ]
+  }
+]

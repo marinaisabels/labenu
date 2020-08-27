@@ -1,0 +1,88 @@
+.App {
+   padding-left: 35%;
+   padding-top: 50px;
+
+}
+
+.dados-container1 {
+  border: 2px solid black;
+  width: 350px;
+  height: 200px;
+
+}
+
+.dados-container1 img{
+  max-width:200px;
+  max-height:80px;
+  width: auto;
+  height: auto;
+  border-radius: 150px;
+}
+
+.dados-container2 {
+  border: 2px solid black;
+  width: 350px;
+  height: 100px;
+  
+}
+
+.dados-container2 img{
+    max-width:100px;
+    max-height:40px;
+    width: auto;
+    height: auto
+}
+
+.dados-container3 {
+  border: 2px solid black;
+  width: 350px;
+  height: 100px;
+
+}
+
+.dados-container3 img{
+  max-width:200px;
+  max-height:50px;
+  width: auto;
+  height: auto
+}
+
+.dados-container4 {
+  border: 1px solid black;
+  padding-left: 10%;
+  border-radius: 40px;;
+  width: 150px;
+  height: 60px;
+
+}
+
+.dados-container5 {
+  border: 2px solid black;
+  width: 350px;
+  height: 100px;
+
+}
+
+.dados-container6 {
+  border: 2px solid black;
+  width: 350px;
+  height: 100px;
+
+}
+
+.dados-container7 {
+  border: 1px solid black;
+  padding-left: 10%;
+  border-radius: 40px;
+  width: 150px;
+  height: 60px;
+
+}
+
+ 
+.dados-container7 img{
+  max-width:200px;
+  max-height:30px;
+  width: auto;
+  height: auto
+}

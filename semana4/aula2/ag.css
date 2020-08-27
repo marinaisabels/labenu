@@ -1,0 +1,25 @@
+/* Cabeçalho */
+header{
+	height: 20vh;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+
+
+/*Lista da Semana */
+main{
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 20px;
+}
+
+main > div{
+	height: 70vh;
+	border-right: 1px solid black;
+	padding: 0 5vw;
+	text-align: 
+	
+
+}
+
